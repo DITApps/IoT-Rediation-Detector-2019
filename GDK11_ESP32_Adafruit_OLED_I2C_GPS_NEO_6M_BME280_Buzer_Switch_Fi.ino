@@ -22,8 +22,8 @@ time_t now;
 #include <FirebaseArduino.h>
 #include <FirebaseJson.h>
 #include <ESP8266WiFi.h>                                                    // esp8266 library
-#define FIREBASE_HOST "chat-98541.firebaseio.com"                          // the project name address from firebase id
-#define FIREBASE_AUTH "tzReSjrmOv1XOBVBaqVAx7LmGUnIPyamv1WLny3Q" //"AIzaSyANaahPzJcppwODWZ7GGMjTI-UAFNQQlOU"            // the secret key generated from firebase
+#define FIREBASE_HOST ""                          // the project name address from firebase id
+#define FIREBASE_AUTH           // the secret key generated from firebase
 
 // BME280
 #include <Adafruit_Sensor.h>
@@ -32,8 +32,8 @@ time_t now;
 Adafruit_BME280 bme; // I2C
 
 // Wi-Fi
-#define WIFI_SSID "AndroidHotspot1858"
-#define WIFI_PASSWORD "201929196"
+#define WIFI_SSID ""
+#define WIFI_PASSWORD ""
 
 // Adafruit OLED 128x64
 #include <Wire.h>
